@@ -1,0 +1,56 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Seat_type" "base:Overall_rating" "base:Positive_rating" "base:Review_information" "base:Flight_date" "base:Qualifier" "base:Origin" "base:Negative_rating" "base:Destination" "base:Recommendation" "base:Flight_information" "base:Trip_verification" "base:Passenger_country" "base:Traveller_type" "base:Aircraft" "base:Review_body" "base:Review" "base:Passenger_information" "base:Publication_date" ; /*classes style*/
+	"NULL" -> "base:Qualifier" [ label = "owl:onClass" ];
+	"NULL" -> "base:has_qualifier" [ label = "owl:onProperty" ];
+	"base:is_flight_date_of" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:has_seat_type" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:has_destination" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:has_traveller_type" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:has_passenger_country" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:has_recommendation" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:is_passenger_country_of" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:is_traveler_type_of" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:is_seat_type_of_passenger" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:has_publication_date" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:has_aircraft" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:is_origin_of_flight" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:has_trip_verification" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:is_qualifier_of" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:has_origin" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:has_flight_date" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:is_publication_date_of" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:is_destination_of_flight" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:is_trip_verification_of" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:has_qualifier" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:is_used_in_flight" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:is_recommendation_of" -> "owl:topObjectProperty" [ label = "rdfs:subPropertyOf" ];
+	"base:Negative_rating" -> "base:Positive_rating" [ label = "owl:disjointWith" ];
+	"base:Overall_rating" -> "xsd:integer" [ label = "base:has_rating" ];
+	"base:Flight_date" -> "base:Flight_information" [ label = "base:is_flight_date_of" ];
+	"base:Passenger_information" -> "base:Seat_type" [ label = "base:has_seat_type" ];
+	"base:Recommendation" -> "base:Review_information" [ label = "base:is_recommendation_of" ];
+	"base:Flight_information" -> "base:Origin" [ label = "base:has_origin" ];
+	"base:Passenger_country" -> "base:Passenger_information" [ label = "base:is_passenger_country_of" ];
+	"base:Review" -> "base:Qualifier" [ label = "base:has_qualifier" ];
+	"base:Qualifier" -> "base:Review" [ label = "base:is_qualifier_of" ];
+	"base:Publication_date" -> "base:Review_information" [ label = "base:is_publication_date_of" ];
+	"base:Traveller_type" -> "base:Passenger_information" [ label = "base:is_traveler_type_of" ];
+	"base:Review_body" -> "xsd:string" [ label = "base:has_text" ];
+	"base:Origin" -> "base:Flight_information" [ label = "base:is_origin_of_flight" ];
+	"base:Review_information" -> "base:Trip_verification" [ label = "base:has_trip_verification" ];
+	"base:Flight_information" -> "xsd:dateTime" [ label = "base:has_date" ];
+	"base:Flight_information" -> "base:Flight_date" [ label = "base:has_flight_date" ];
+	"base:Review_information" -> "base:Recommendation" [ label = "base:has_recommendation" ];
+	"base:Review_information" -> "base:Publication_date" [ label = "base:has_publication_date" ];
+	"base:Flight_information" -> "base:Destination" [ label = "base:has_destination" ];
+	"base:Passenger_information" -> "base:Traveller_type" [ label = "base:has_traveller_type" ];
+	"base:Passenger_information" -> "base:Passenger_country" [ label = "base:has_passenger_country" ];
+	"base:Destination" -> "base:Flight_information" [ label = "base:is_destination_of_flight" ];
+	"base:Trip_verification" -> "base:Review_information" [ label = "base:is_trip_verification_of" ];
+	"base:Flight_information" -> "base:Aircraft" [ label = "base:has_aircraft" ];
+	"base:Seat_type" -> "base:Passenger_information" [ label = "base:is_seat_type_of_passenger" ];
+	"base:Aircraft" -> "base:Flight_information" [ label = "base:is_used_in_flight" ];
+
+}
