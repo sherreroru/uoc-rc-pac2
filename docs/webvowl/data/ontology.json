@@ -1,0 +1,1178 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_information",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Review_information",
+      "undefined" : "Review_information"
+    },
+    "subClasses" : [ "18", "6", "19", "9", "2", "20" ],
+    "comment" : {
+      "undefined" : "Class Review_information"
+    },
+    "id" : "1",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Aircraft",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "https://dbpedia.org/ontology/Aircraft",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Aircraft",
+      "undefined" : "Aircraft"
+    },
+    "comment" : {
+      "undefined" : "Class Aircraft"
+    },
+    "id" : "53",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Overall_rating",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Overall_rating",
+      "undefined" : "Overall_rating"
+    },
+    "comment" : {
+      "undefined" : "Class Overall_rating"
+    },
+    "id" : "18",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_title",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Review_title",
+      "undefined" : "Review_title"
+    },
+    "comment" : {
+      "undefined" : "Class Review_title"
+    },
+    "id" : "19",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Recommendation",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Recommendation",
+      "undefined" : "Recommendation"
+    },
+    "comment" : {
+      "undefined" : "Class Recommendation"
+    },
+    "id" : "20",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Negative_rating",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Negative_rating",
+      "undefined" : "Negative_rating"
+    },
+    "comment" : {
+      "undefined" : "Class Negative_rating"
+    },
+    "id" : "22",
+    "superClasses" : [ "23" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_month",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Flight_month",
+      "undefined" : "Flight_month"
+    },
+    "comment" : {
+      "undefined" : "Class Flight_month"
+    },
+    "id" : "59",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Traveller_type",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Traveller_type",
+      "undefined" : "Traveler_type"
+    },
+    "comment" : {
+      "undefined" : "Class Traveler_type"
+    },
+    "id" : "52",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_day",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Flight_day",
+      "undefined" : "Flight_day"
+    },
+    "comment" : {
+      "undefined" : "Class Flight_day"
+    },
+    "id" : "50",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_information",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Flight_information",
+      "undefined" : "Flight_information"
+    },
+    "subClasses" : [ "56", "73", "13", "53" ],
+    "comment" : {
+      "undefined" : "Class Flight_information"
+    },
+    "id" : "12",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "7",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Publication_year",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Publication_year",
+      "undefined" : "Publication_year"
+    },
+    "comment" : {
+      "undefined" : "Class Publication_year"
+    },
+    "id" : "68",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "24",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Passenger_country",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "https://dbpedia.org/ontology/Country",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Passenger_country",
+      "undefined" : "Passenger_country"
+    },
+    "comment" : {
+      "undefined" : "Class Passenger_country"
+    },
+    "id" : "48",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Origin",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Origin",
+      "undefined" : "Origin"
+    },
+    "comment" : {
+      "undefined" : "Class Origin"
+    },
+    "id" : "56",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_body",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Review_body",
+      "undefined" : "Review_body"
+    },
+    "comment" : {
+      "undefined" : "Class Review_body"
+    },
+    "id" : "6",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "16",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Publication_date",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "https://dbpedia.org/page/Date",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Publication_date",
+      "undefined" : "Publication_date"
+    },
+    "subClasses" : [ "70", "68", "63" ],
+    "comment" : {
+      "undefined" : "Class Publication_date"
+    },
+    "id" : "2",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_year",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Flight_year",
+      "undefined" : "Flight_year"
+    },
+    "comment" : {
+      "undefined" : "Class Flight_year"
+    },
+    "id" : "61",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Publication_month",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Publication_month",
+      "undefined" : "Publication_month"
+    },
+    "comment" : {
+      "undefined" : "Class Publication_month"
+    },
+    "id" : "70",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Seat_type",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Seat_type",
+      "undefined" : "Seat_type"
+    },
+    "comment" : {
+      "undefined" : "Class Seat_type"
+    },
+    "id" : "55",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Trip_verification",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Trip_verification",
+      "undefined" : "Trip_verification"
+    },
+    "comment" : {
+      "undefined" : "Class Trip_verification"
+    },
+    "id" : "9",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Publication_day",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Publication_day",
+      "undefined" : "Publication_day"
+    },
+    "comment" : {
+      "undefined" : "Class Publication_day"
+    },
+    "id" : "63",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_date",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "annotations" : {
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "https://dbpedia.org/page/Date",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Flight_date",
+      "undefined" : "Flight_date"
+    },
+    "subClasses" : [ "61", "59", "50" ],
+    "comment" : {
+      "undefined" : "Class Flight_date"
+    },
+    "id" : "13",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Passenger_information",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Passenger_information",
+      "undefined" : "Passenger_information"
+    },
+    "subClasses" : [ "48", "55", "52" ],
+    "comment" : {
+      "undefined" : "Class Passenger_information"
+    },
+    "id" : "43",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Destination",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Destination",
+      "undefined" : "Destination"
+    },
+    "comment" : {
+      "undefined" : "Class Destination"
+    },
+    "id" : "73",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Review",
+      "undefined" : "Review"
+    },
+    "subClasses" : [ "43", "1", "12" ],
+    "comment" : {
+      "undefined" : "Class Review"
+    },
+    "id" : "17"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Qualifier",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Qualifier",
+      "undefined" : "Qualifier"
+    },
+    "subClasses" : [ "45", "22" ],
+    "comment" : {
+      "undefined" : "Class Qualifier"
+    },
+    "id" : "23"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Positive_rating",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Positive_rating",
+      "undefined" : "Positive_rating"
+    },
+    "comment" : {
+      "undefined" : "Class Positive_rating"
+    },
+    "id" : "45",
+    "superClasses" : [ "23" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_publication_date",
+    "inverse" : "3",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "has_publication_date",
+      "undefined" : "has_publication_date"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "ObjectProperty has_publication_date"
+    },
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_text",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "has_text",
+      "undefined" : "has_text"
+    },
+    "domain" : "6",
+    "comment" : {
+      "undefined" : "DataProperty has_text"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_trip_verification",
+    "inverse" : "10",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "has_trip_verification",
+      "undefined" : "has_trip_verification"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "ObjectProperty has_trip_verification"
+    },
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_flight_date",
+    "inverse" : "14",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "has_flight_date",
+      "undefined" : "has_flight_date"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "ObjectProperty has_flight_date"
+    },
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_date",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "has_date",
+      "undefined" : "has_date"
+    },
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "DataProperty has_date"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "15"
+  }, {
+    "range" : "23",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "24",
+    "subproperty" : [ "25", "26", "0", "27", "28", "29", "30", "8", "31", "11", "32", "10", "33", "34", "3", "35", "36", "37", "38", "39", "40", "14" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "4"
+  }, {
+    "range" : "17",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "17",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "23",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "range" : "17",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "43",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "13",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_recommendation",
+    "inverse" : "27",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "has_recommendation",
+      "undefined" : "has_recommendation"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "ObjectProperty has_recommendation"
+    },
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "39"
+  }, {
+    "range" : "43",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_flight_date_of",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "is_flight_date_of",
+      "undefined" : "is_flight_date_of"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "ObjectProperty is_flight_date_of"
+    },
+    "attributes" : [ "object" ],
+    "id" : "14"
+  }, {
+    "range" : "43",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_traveller_type",
+    "inverse" : "28",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "has_traveller_type",
+      "undefined" : "has_traveler_type"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "43",
+    "comment" : {
+      "undefined" : "ObjectProperty has_traveler_type"
+    },
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_origin_of_flight",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "is_origin_of_flight",
+      "undefined" : "is_origin_of_flight"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "56",
+    "comment" : {
+      "undefined" : "ObjectProperty is_origin_of_flight"
+    },
+    "attributes" : [ "object" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_passenger_country_of",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "is_passenger_country_of",
+      "undefined" : "is_passenger_country_of"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "48",
+    "comment" : {
+      "undefined" : "ObjectProperty is_passenger_country_of"
+    },
+    "attributes" : [ "object" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_rating",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "has_rating",
+      "undefined" : "has_rating"
+    },
+    "domain" : "18",
+    "comment" : {
+      "undefined" : "DataProperty has_rating"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_publication_date_of",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "is_publication_date_of",
+      "undefined" : "is_publication_date_of"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "ObjectProperty is_publication_date_of"
+    },
+    "attributes" : [ "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_qualifier",
+    "inverse" : "31",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "has_qualifier",
+      "undefined" : "has_qualifier"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "17",
+    "comment" : {
+      "undefined" : "ObjectProperty has_qualifier"
+    },
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "35"
+  }, {
+    "range" : "13",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "60"
+  }, {
+    "range" : "2",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "62"
+  }, {
+    "range" : "13",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "range" : "12",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "12",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "range" : "2",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "2",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "69"
+  }, {
+    "range" : "1",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "range" : "12",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "12",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_traveler_type_of",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "is_traveler_type_of",
+      "undefined" : "is_traveler_type_of"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "52",
+    "comment" : {
+      "undefined" : "ObjectProperty is_traveler_type_of"
+    },
+    "attributes" : [ "object" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_seat_type",
+    "inverse" : "32",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "has_seat_type",
+      "undefined" : "has_seat_type"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "43",
+    "comment" : {
+      "undefined" : "ObjectProperty has_seat_type"
+    },
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_qualifier_of",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "is_qualifier_of",
+      "undefined" : "is_qualifier_of"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "23",
+    "comment" : {
+      "undefined" : "ObjectProperty is_qualifier_of"
+    },
+    "attributes" : [ "object" ],
+    "id" : "31"
+  }, {
+    "range" : "1",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "range" : "1",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "76"
+  }, {
+    "range" : "1",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "1",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "range" : "1",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_used_in_flight",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "is_used_in_flight",
+      "undefined" : "is_used_in_flight"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "53",
+    "comment" : {
+      "undefined" : "ObjectProperty is_used_in_flight"
+    },
+    "attributes" : [ "object" ],
+    "id" : "36"
+  }, {
+    "range" : "45",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_aircraft",
+    "inverse" : "36",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "has_aircraft",
+      "undefined" : "has_aircraft"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "ObjectProperty has_aircraft"
+    },
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_origin",
+    "inverse" : "33",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "has_origin",
+      "undefined" : "has_origin"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "ObjectProperty has_origin"
+    },
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_destination",
+    "inverse" : "38",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "has_destination",
+      "undefined" : "has_destination"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "ObjectProperty has_destination"
+    },
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_recommendation_of",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "is_recommendation_of",
+      "undefined" : "is_recommendation_of"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "20",
+    "comment" : {
+      "undefined" : "ObjectProperty is_recommendation_of"
+    },
+    "attributes" : [ "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_seat_type_of_passenger",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "is_seat_type_of_passenger",
+      "undefined" : "is_seat_type_of_passenger"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "55",
+    "comment" : {
+      "undefined" : "ObjectProperty is_seat_type_of_passenger"
+    },
+    "attributes" : [ "object" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_trip_verification_of",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "is_trip_verification_of",
+      "undefined" : "is_trip_verification_of"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "ObjectProperty is_trip_verification_of"
+    },
+    "attributes" : [ "object" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_destination_of_flight",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "is_destination_of_flight",
+      "undefined" : "is_destination_of_flight"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "73",
+    "comment" : {
+      "undefined" : "ObjectProperty is_destination_of_flight"
+    },
+    "attributes" : [ "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_passenger_country",
+    "inverse" : "34",
+    "baseIri" : "http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "has_passenger_country",
+      "undefined" : "has_passenger_country"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "43",
+    "comment" : {
+      "undefined" : "ObjectProperty has_passenger_country"
+    },
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "37"
+  } ]
+}
