@@ -1,0 +1,720 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#sameAs -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#sameAs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_aircraft -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_aircraft">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_used_in_flight"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_information"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Aircraft"/>
+        <rdfs:comment>ObjectProperty has_aircraft</rdfs:comment>
+        <rdfs:label>has_aircraft</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_destination -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_destination">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_destination_of_flight"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_information"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Destination"/>
+        <rdfs:comment>ObjectProperty has_destination</rdfs:comment>
+        <rdfs:label>has_destination</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_flight_date -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_flight_date">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_flight_date_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_information"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_date"/>
+        <rdfs:comment>ObjectProperty has_flight_date</rdfs:comment>
+        <rdfs:label>has_flight_date</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_origin -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_origin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_origin_of_flight"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_information"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Origin"/>
+        <rdfs:comment>ObjectProperty has_origin</rdfs:comment>
+        <rdfs:label>has_origin</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_passenger_country -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_passenger_country">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_passenger_country_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Passenger_information"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Passenger_country"/>
+        <rdfs:comment>ObjectProperty has_passenger_country</rdfs:comment>
+        <rdfs:label>has_passenger_country</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_publication_date -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_publication_date">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_publication_date_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_information"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Publication_date"/>
+        <rdfs:comment>ObjectProperty has_publication_date</rdfs:comment>
+        <rdfs:label>has_publication_date</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_qualifier -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_qualifier">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_qualifier_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Qualifier"/>
+        <rdfs:comment>ObjectProperty has_qualifier</rdfs:comment>
+        <rdfs:label>has_qualifier</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_recommendation -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_recommendation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_recommendation_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_information"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Recommendation"/>
+        <rdfs:comment>ObjectProperty has_recommendation</rdfs:comment>
+        <rdfs:label>has_recommendation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_seat_type -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_seat_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_seat_type_of_passenger"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Passenger_information"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Seat_type"/>
+        <rdfs:comment>ObjectProperty has_seat_type</rdfs:comment>
+        <rdfs:label>has_seat_type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_traveller_type -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_traveller_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_traveler_type_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Passenger_information"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Traveller_type"/>
+        <rdfs:comment>ObjectProperty has_traveler_type</rdfs:comment>
+        <rdfs:label>has_traveler_type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_trip_verification -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_trip_verification">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_trip_verification_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_information"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Trip_verification"/>
+        <rdfs:comment>ObjectProperty has_trip_verification</rdfs:comment>
+        <rdfs:label>has_trip_verification</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_destination_of_flight -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_destination_of_flight">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Destination"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_information"/>
+        <rdfs:comment>ObjectProperty is_destination_of_flight</rdfs:comment>
+        <rdfs:label>is_destination_of_flight</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_flight_date_of -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_flight_date_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_date"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_information"/>
+        <rdfs:comment>ObjectProperty is_flight_date_of</rdfs:comment>
+        <rdfs:label>is_flight_date_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_origin_of_flight -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_origin_of_flight">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Origin"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_information"/>
+        <rdfs:comment>ObjectProperty is_origin_of_flight</rdfs:comment>
+        <rdfs:label>is_origin_of_flight</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_passenger_country_of -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_passenger_country_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Passenger_country"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Passenger_information"/>
+        <rdfs:comment>ObjectProperty is_passenger_country_of</rdfs:comment>
+        <rdfs:label>is_passenger_country_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_publication_date_of -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_publication_date_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Publication_date"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_information"/>
+        <rdfs:comment>ObjectProperty is_publication_date_of</rdfs:comment>
+        <rdfs:label>is_publication_date_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_qualifier_of -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_qualifier_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Qualifier"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review"/>
+        <rdfs:comment>ObjectProperty is_qualifier_of</rdfs:comment>
+        <rdfs:label>is_qualifier_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_recommendation_of -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_recommendation_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Recommendation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_information"/>
+        <rdfs:comment>ObjectProperty is_recommendation_of</rdfs:comment>
+        <rdfs:label>is_recommendation_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_seat_type_of_passenger -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_seat_type_of_passenger">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Seat_type"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Passenger_information"/>
+        <rdfs:comment>ObjectProperty is_seat_type_of_passenger</rdfs:comment>
+        <rdfs:label>is_seat_type_of_passenger</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_traveler_type_of -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_traveler_type_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Traveller_type"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Passenger_information"/>
+        <rdfs:comment>ObjectProperty is_traveler_type_of</rdfs:comment>
+        <rdfs:label>is_traveler_type_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_trip_verification_of -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_trip_verification_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Trip_verification"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_information"/>
+        <rdfs:comment>ObjectProperty is_trip_verification_of</rdfs:comment>
+        <rdfs:label>is_trip_verification_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_used_in_flight -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#is_used_in_flight">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Aircraft"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_information"/>
+        <rdfs:comment>ObjectProperty is_used_in_flight</rdfs:comment>
+        <rdfs:label>is_used_in_flight</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_date -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_information"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>DataProperty has_date</rdfs:comment>
+        <rdfs:label>has_date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_rating -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_rating">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Overall_rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>DataProperty has_rating</rdfs:comment>
+        <rdfs:label>has_rating</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_text -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_text">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_body"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>DataProperty has_text</rdfs:comment>
+        <rdfs:label>has_text</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Aircraft -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Aircraft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_information"/>
+        <rdfs:comment>Class Aircraft</rdfs:comment>
+        <rdfs:label>Aircraft</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/ontology/Aircraft</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Destination -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Destination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_information"/>
+        <rdfs:comment>Class Destination</rdfs:comment>
+        <rdfs:label>Destination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_date -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_date">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_information"/>
+        <rdfs:comment>Class Flight_date</rdfs:comment>
+        <rdfs:label>Flight_date</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/Date</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_day -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_day">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_date"/>
+        <rdfs:comment>Class Flight_day</rdfs:comment>
+        <rdfs:label>Flight_day</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_information -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review"/>
+        <rdfs:comment>Class Flight_information</rdfs:comment>
+        <rdfs:label>Flight_information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_month -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_month">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_date"/>
+        <rdfs:comment>Class Flight_month</rdfs:comment>
+        <rdfs:label>Flight_month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_year -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_year">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_date"/>
+        <rdfs:comment>Class Flight_year</rdfs:comment>
+        <rdfs:label>Flight_year</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Negative_rating -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Negative_rating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Qualifier"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Positive_rating"/>
+        <rdfs:comment>Class Negative_rating</rdfs:comment>
+        <rdfs:label>Negative_rating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Origin -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Origin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Flight_information"/>
+        <rdfs:comment>Class Origin</rdfs:comment>
+        <rdfs:label>Origin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Overall_rating -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Overall_rating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_information"/>
+        <rdfs:comment>Class Overall_rating</rdfs:comment>
+        <rdfs:label>Overall_rating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Passenger_country -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Passenger_country">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Passenger_information"/>
+        <rdfs:comment>Class Passenger_country</rdfs:comment>
+        <rdfs:label>Passenger_country</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/ontology/Country</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Passenger_information -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Passenger_information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review"/>
+        <rdfs:comment>Class Passenger_information</rdfs:comment>
+        <rdfs:label>Passenger_information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Positive_rating -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Positive_rating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Qualifier"/>
+        <rdfs:comment>Class Positive_rating</rdfs:comment>
+        <rdfs:label>Positive_rating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Publication_date -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Publication_date">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_information"/>
+        <rdfs:comment>Class Publication_date</rdfs:comment>
+        <rdfs:label>Publication_date</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/Date</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Publication_day -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Publication_day">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Publication_date"/>
+        <rdfs:comment>Class Publication_day</rdfs:comment>
+        <rdfs:label>Publication_day</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Publication_month -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Publication_month">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Publication_date"/>
+        <rdfs:comment>Class Publication_month</rdfs:comment>
+        <rdfs:label>Publication_month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Publication_year -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Publication_year">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Publication_date"/>
+        <rdfs:comment>Class Publication_year</rdfs:comment>
+        <rdfs:label>Publication_year</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Qualifier -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Qualifier">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>Class Qualifier</rdfs:comment>
+        <rdfs:label>Qualifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Recommendation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Recommendation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_information"/>
+        <rdfs:comment>Class Recommendation</rdfs:comment>
+        <rdfs:label>Recommendation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review">
+        <rdfs:comment>Class Review</rdfs:comment>
+        <rdfs:label>Review</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_body -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_body">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_information"/>
+        <rdfs:comment>Class Review_body</rdfs:comment>
+        <rdfs:label>Review_body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_information -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#has_qualifier"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Qualifier"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Class Review_information</rdfs:comment>
+        <rdfs:label>Review_information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_title -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_title">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_information"/>
+        <rdfs:comment>Class Review_title</rdfs:comment>
+        <rdfs:label>Review_title</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Seat_type -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Seat_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Passenger_information"/>
+        <rdfs:comment>Class Seat_type</rdfs:comment>
+        <rdfs:label>Seat_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Traveller_type -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Traveller_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Passenger_information"/>
+        <rdfs:comment>Class Traveler_type</rdfs:comment>
+        <rdfs:label>Traveler_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Trip_verification -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Trip_verification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/serch/ontologies/2024/3/untitled-ontology-10#Review_information"/>
+        <rdfs:comment>Class Trip_verification</rdfs:comment>
+        <rdfs:label>Trip_verification</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

@@ -1,0 +1,31 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "untitled-ontology-10:Review_title" "untitled-ontology-10:Seat_type" "untitled-ontology-10:Publication_day" "untitled-ontology-10:Overall_rating" "untitled-ontology-10:Flight_year" "untitled-ontology-10:Positive_rating" "untitled-ontology-10:Review_information" "untitled-ontology-10:Flight_date" "untitled-ontology-10:Qualifier" "untitled-ontology-10:Origin" "untitled-ontology-10:Negative_rating" "untitled-ontology-10:Destination" "untitled-ontology-10:Recommendation" "untitled-ontology-10:Flight_information" "untitled-ontology-10:Trip_verification" "untitled-ontology-10:Publication_month" "untitled-ontology-10:Passenger_country" "untitled-ontology-10:Flight_day" "untitled-ontology-10:Traveller_type" "untitled-ontology-10:Aircraft" "untitled-ontology-10:Publication_year" "untitled-ontology-10:Review_body" "untitled-ontology-10:Flight_month" "untitled-ontology-10:Review" "untitled-ontology-10:Passenger_information" "untitled-ontology-10:Publication_date" ; /*classes style*/
+	"untitled-ontology-10:Destination" -> "untitled-ontology-10:Flight_information" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Origin" -> "untitled-ontology-10:Flight_information" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Publication_month" -> "untitled-ontology-10:Publication_date" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Review_body" -> "untitled-ontology-10:Review_information" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Publication_date" -> "untitled-ontology-10:Review_information" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Seat_type" -> "untitled-ontology-10:Passenger_information" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Aircraft" -> "untitled-ontology-10:Flight_information" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Publication_day" -> "untitled-ontology-10:Publication_date" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Flight_information" -> "untitled-ontology-10:Review" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Passenger_country" -> "untitled-ontology-10:Passenger_information" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Publication_year" -> "untitled-ontology-10:Publication_date" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Flight_month" -> "untitled-ontology-10:Flight_date" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Flight_date" -> "untitled-ontology-10:Flight_information" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Positive_rating" -> "untitled-ontology-10:Qualifier" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Review_information" -> "untitled-ontology-10:Review" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Traveller_type" -> "untitled-ontology-10:Passenger_information" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Flight_year" -> "untitled-ontology-10:Flight_date" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Qualifier" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Recommendation" -> "untitled-ontology-10:Review_information" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Flight_day" -> "untitled-ontology-10:Flight_date" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Overall_rating" -> "untitled-ontology-10:Review_information" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Review_title" -> "untitled-ontology-10:Review_information" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Trip_verification" -> "untitled-ontology-10:Review_information" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Passenger_information" -> "untitled-ontology-10:Review" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-10:Negative_rating" -> "untitled-ontology-10:Qualifier" [ label = "rdfs:subClassOf" ];
+
+}
