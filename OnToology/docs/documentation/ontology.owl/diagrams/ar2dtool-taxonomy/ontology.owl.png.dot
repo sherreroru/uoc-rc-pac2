@@ -1,0 +1,31 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Review_title" "base:Seat_type" "base:Publication_day" "base:Overall_rating" "base:Flight_year" "base:Positive_rating" "base:Review_information" "base:Flight_date" "base:Qualifier" "base:Origin" "base:Negative_rating" "base:Destination" "base:Recommendation" "base:Flight_information" "base:Trip_verification" "base:Publication_month" "base:Passenger_country" "base:Flight_day" "base:Traveller_type" "base:Aircraft" "base:Publication_year" "base:Review_body" "base:Flight_month" "base:Review" "base:Passenger_information" "base:Publication_date" ; /*classes style*/
+	"base:Destination" -> "base:Flight_information" [ label = "rdfs:subClassOf" ];
+	"base:Origin" -> "base:Flight_information" [ label = "rdfs:subClassOf" ];
+	"base:Publication_month" -> "base:Publication_date" [ label = "rdfs:subClassOf" ];
+	"base:Review_body" -> "base:Review_information" [ label = "rdfs:subClassOf" ];
+	"base:Publication_date" -> "base:Review_information" [ label = "rdfs:subClassOf" ];
+	"base:Seat_type" -> "base:Passenger_information" [ label = "rdfs:subClassOf" ];
+	"base:Aircraft" -> "base:Flight_information" [ label = "rdfs:subClassOf" ];
+	"base:Publication_day" -> "base:Publication_date" [ label = "rdfs:subClassOf" ];
+	"base:Flight_information" -> "base:Review" [ label = "rdfs:subClassOf" ];
+	"base:Passenger_country" -> "base:Passenger_information" [ label = "rdfs:subClassOf" ];
+	"base:Publication_year" -> "base:Publication_date" [ label = "rdfs:subClassOf" ];
+	"base:Flight_month" -> "base:Flight_date" [ label = "rdfs:subClassOf" ];
+	"base:Flight_date" -> "base:Flight_information" [ label = "rdfs:subClassOf" ];
+	"base:Positive_rating" -> "base:Qualifier" [ label = "rdfs:subClassOf" ];
+	"base:Review_information" -> "base:Review" [ label = "rdfs:subClassOf" ];
+	"base:Traveller_type" -> "base:Passenger_information" [ label = "rdfs:subClassOf" ];
+	"base:Flight_year" -> "base:Flight_date" [ label = "rdfs:subClassOf" ];
+	"base:Qualifier" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"base:Recommendation" -> "base:Review_information" [ label = "rdfs:subClassOf" ];
+	"base:Flight_day" -> "base:Flight_date" [ label = "rdfs:subClassOf" ];
+	"base:Overall_rating" -> "base:Review_information" [ label = "rdfs:subClassOf" ];
+	"base:Review_title" -> "base:Review_information" [ label = "rdfs:subClassOf" ];
+	"base:Trip_verification" -> "base:Review_information" [ label = "rdfs:subClassOf" ];
+	"base:Passenger_information" -> "base:Review" [ label = "rdfs:subClassOf" ];
+	"base:Negative_rating" -> "base:Qualifier" [ label = "rdfs:subClassOf" ];
+
+}
